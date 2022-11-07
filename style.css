@@ -1,0 +1,19 @@
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row--img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.row--content {
+    padding: 1.8em 4em;
+    line-height: 1.2;
+}
+
+.row--content h2 {
+    font-size: 1.875rem;
+    margin: 0 0 1.5em;
+}
